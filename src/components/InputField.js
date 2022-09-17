@@ -7,15 +7,19 @@ class InputField extends React.Component {
   }
 
   render() {
-    const { type, id, label } = this.props;
+    const { type, id, label, required } = this.props;
 
     return (
       <div className="input-wrapper">
         <label htmlFor={id}>{label}</label>
-        <input type={type} id={id} name={id} />
+        <input type={type} id={id} name={id} required={required} />
       </div>
     );
   }
 }
+
+InputField.defaultProps = {
+  required: false,
+};
 
 export default InputField;
