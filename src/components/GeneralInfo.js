@@ -20,6 +20,7 @@ class GeneralInfo extends React.Component {
         />
         <InputField type="email" id="email" label="Email" required="true" />
         <InputField type="tel" id="phone" label="Phone" required="true" />
+        <button type="button">Edit</button>
       </section>
     );
   }

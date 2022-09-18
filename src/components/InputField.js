@@ -12,7 +12,13 @@ class InputField extends React.Component {
     return (
       <div className="input-wrapper">
         <label htmlFor={id}>{label}</label>
-        <input type={type} id={id} name={id} required={required} />
+        <input
+          type={type}
+          id={id}
+          name={id}
+          placeholder=" "
+          required={required}
+        />
       </div>
     );
   }

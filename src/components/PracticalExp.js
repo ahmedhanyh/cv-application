@@ -10,6 +10,7 @@ class PracticalExp extends React.Component {
         <InputField type="text" id="position" label="Position Title" />
         <InputField type="date" id="start_date" label="Start date" />
         <InputField type="date" id="end_date" label="End date" />
+        <button type="button">Edit</button>
       </section>
     );
   }

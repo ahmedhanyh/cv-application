@@ -17,3 +17,25 @@ label {
   width: 100px;
   text-align: end;
 }
+
+input {
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+input:invalid {
+  border-color: red;
+}
+
+input:valid {
+  border-color: green;
+}
+
+input:focus {
+  outline: none;
+  border-color: black;
+}
+
+input:placeholder-shown {
+  border-color: black;
+}

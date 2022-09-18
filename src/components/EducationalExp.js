@@ -24,6 +24,7 @@ class EducationalExp extends React.Component {
           label="Date of Study"
           required="true"
         />
+        <button type="button">Edit</button>
       </section>
     );
   }
