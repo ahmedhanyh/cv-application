@@ -10,19 +10,19 @@ class EducationalExp extends React.Component {
           type="text"
           id="school"
           label="School Name"
-          required="true"
+          required={true}
         />
         <InputField
           type="text"
           id="study"
           label="Field of Study"
-          required="true"
+          required={true}
         />
         <InputField
           type="date"
           id="date"
           label="Date of Study"
-          required="true"
+          required={true}
         />
         <button type="button">Edit</button>
       </section>

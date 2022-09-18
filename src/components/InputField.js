@@ -11,7 +11,10 @@ class InputField extends React.Component {
 
     return (
       <div className="input-wrapper">
-        <label htmlFor={id}>{label}</label>
+        <label htmlFor={id}>
+          {label}
+          {required ? <span style={{ color: "red" }}>*</span> : ""}
+        </label>
         <input
           type={type}
           id={id}

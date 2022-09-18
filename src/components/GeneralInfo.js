@@ -10,16 +10,16 @@ class GeneralInfo extends React.Component {
           type="text"
           id="first_name"
           label="First Name"
-          required="true"
+          required={true}
         />
         <InputField
           type="text"
           id="last_name"
           label="Last Name"
-          required="true"
+          required={true}
         />
-        <InputField type="email" id="email" label="Email" required="true" />
-        <InputField type="tel" id="phone" label="Phone" required="true" />
+        <InputField type="email" id="email" label="Email" required={true} />
+        <InputField type="tel" id="phone" label="Phone" required={true} />
         <button type="button">Edit</button>
       </section>
     );
