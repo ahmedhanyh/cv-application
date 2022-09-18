@@ -1,0 +1,17 @@
+#root {
+  text-align: center;
+
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  margin: 12px 8px;
+  padding: 8px 12px;
+  font-size: 100%;
+}
+
+h1,
+h2 {
+  text-decoration: underline;
+}

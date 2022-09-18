@@ -1,4 +1,5 @@
 import React from "react";
+import "./App.css";
 import GeneralInfo from "./components/GeneralInfo";
 import EducationalExp from "./components/EducationalExp";
 import PracticalExp from "./components/PracticalExp";
@@ -23,7 +24,7 @@ class App extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className="cv-form">
         <h1>CV Submission Form</h1>
         <p>
           Fields marked with <span style={{ color: "red" }}>*</span> are
