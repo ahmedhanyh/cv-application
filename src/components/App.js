@@ -1,8 +1,8 @@
 import React from "react";
-import "./App.css";
-import GeneralInfo from "./components/GeneralInfo";
-import EducationalExp from "./components/EducationalExp";
-import PracticalExp from "./components/PracticalExp";
+import "../styles/App.css";
+import GeneralInfo from "./GeneralInfo";
+import EducationalExp from "./EducationalExp";
+import PracticalExp from "./PracticalExp";
 
 class App extends React.Component {
   constructor(props) {
