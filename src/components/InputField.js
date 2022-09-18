@@ -7,7 +7,7 @@ class InputField extends React.Component {
   }
 
   render() {
-    const { type, id, label, required } = this.props;
+    const { type, id, label, required, submitted } = this.props;
 
     return (
       <div className="input-wrapper">
@@ -21,6 +21,7 @@ class InputField extends React.Component {
           name={id}
           placeholder=" "
           required={required}
+          readOnly={submitted}
         />
       </div>
     );

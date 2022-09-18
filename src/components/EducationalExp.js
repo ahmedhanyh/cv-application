@@ -2,6 +2,10 @@ import React from "react";
 import InputField from "./InputField";
 
 class EducationalExp extends React.Component {
+  constructor(props) {
+    super(props);
+  }
+
   render() {
     return (
       <section>
@@ -11,20 +15,22 @@ class EducationalExp extends React.Component {
           id="school"
           label="School Name"
           required={true}
+          submitted={this.props.submitted}
         />
         <InputField
           type="text"
           id="study"
           label="Field of Study"
           required={true}
+          submitted={this.props.submitted}
         />
         <InputField
           type="date"
           id="date"
           label="Date of Study"
           required={true}
+          submitted={this.props.submitted}
         />
-        <button type="button">Edit</button>
       </section>
     );
   }

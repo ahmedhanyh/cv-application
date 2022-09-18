@@ -6,11 +6,30 @@ class PracticalExp extends React.Component {
     return (
       <section>
         <h2>Practical Experience</h2>
-        <InputField type="text" id="company_name" label="Company Name" />
-        <InputField type="text" id="position" label="Position Title" />
-        <InputField type="date" id="start_date" label="Start date" />
-        <InputField type="date" id="end_date" label="End date" />
-        <button type="button">Edit</button>
+        <InputField
+          type="text"
+          id="company_name"
+          label="Company Name"
+          submitted={this.props.submitted}
+        />
+        <InputField
+          type="text"
+          id="position"
+          label="Position Title"
+          submitted={this.props.submitted}
+        />
+        <InputField
+          type="date"
+          id="start_date"
+          label="Start date"
+          submitted={this.props.submitted}
+        />
+        <InputField
+          type="date"
+          id="end_date"
+          label="End date"
+          submitted={this.props.submitted}
+        />
       </section>
     );
   }

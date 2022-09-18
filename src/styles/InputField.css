@@ -39,3 +39,8 @@ input:focus {
 input:placeholder-shown {
   border-color: black;
 }
+
+input:read-only {
+  border: none;
+  border-radius: 0%;
+}
